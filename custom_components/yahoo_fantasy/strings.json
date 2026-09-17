@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "pick_implementation": {
+        "title": "Pick Authentication Method"
+      },
+      "auth": {
+        "title": "Authenticate with Yahoo"
+      },
+      "league_select": {
+        "title": "Select your NFL league",
+        "data": {
+          "league_key": "League"
+        }
+      },
+      "team_select": {
+        "title": "Select your team",
+        "data": {
+          "team_key": "Team"
+        }
+      }
+    },
+    "abort": {
+      "missing_configuration": "Yahoo application credentials have not been configured. Add them via Settings > Application Credentials before setting up this integration.",
+      "missing_credentials": "Yahoo application credentials have not been configured. Add them via Settings > Application Credentials before setting up this integration.",
+      "no_leagues_found": "No NFL fantasy leagues were found for this Yahoo account.",
+      "no_teams_found": "No teams found for this league.",
+      "cannot_connect": "Could not connect to Yahoo Fantasy Sports.",
+      "already_configured": "This league/team is already configured.",
+      "oauth_failed": "OAuth authentication failed.",
+      "oauth_error": "OAuth authentication returned an invalid token.",
+      "oauth_timeout": "Timed out waiting for the OAuth token exchange.",
+      "user_rejected_authorize": "You rejected the authorization request."
+    }
+  }
+}

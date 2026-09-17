@@ -1,0 +1,6 @@
+{
+  "name": "Yahoo Fantasy Sports",
+  "render_readme": true,
+  "domains": ["sensor"],
+  "homeassistant": "2023.1.0"
+}

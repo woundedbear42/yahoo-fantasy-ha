@@ -1,0 +1,6 @@
+homeassistant
+pytest
+pytest-homeassistant-custom-component
+pytest-asyncio
+yahoo_fantasy_api>=2.12.2,<3
+yahoo_oauth>=2.0,<3

@@ -1,0 +1,13 @@
+{
+  "domain": "yahoo_fantasy",
+  "name": "Yahoo Fantasy Sports",
+  "codeowners": ["@woundedbear42"],
+  "config_flow": true,
+  "dependencies": ["application_credentials"],
+  "documentation": "https://github.com/woundedbear42/yahoo-fantasy-ha",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/woundedbear42/yahoo-fantasy-ha/issues",
+  "requirements": ["yahoo_fantasy_api>=2.12.2,<3", "yahoo_oauth>=2.0,<3"],
+  "version": "1.0.0"
+}
